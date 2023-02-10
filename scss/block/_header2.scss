@@ -1,0 +1,29 @@
+.header2 {
+//   border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 104px;
+  margin-right: 135px;
+  ul {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #262626;
+  }
+  :nth-child(2){
+   :nth-child(1){
+      color: #40BFFF;
+   }
+   li{
+      cursor: pointer;
+      margin-left: 98.27px;
+      &:active{
+         color: #40BFFF;
+      }
+   }
+  }
+}

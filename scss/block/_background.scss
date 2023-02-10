@@ -1,0 +1,33 @@
+.background {
+  width: 1500px;
+  height: 653.73px;
+  border: 1px solid transparent;
+  background-image: url("../../img/background.png");
+  h1 {
+    height: 228.49px;
+    width: 573.17px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    margin-top: 258.73px;
+    margin-left: 100px;
+    margin-bottom: 77.99px;
+  }
+  .background-cards{
+   width: 1252.86px;
+   height: 354.48px;
+  //  border: 1px solid;
+   background-color: #ffffff;
+   margin: 0 auto;
+   display: flex;
+   .card{
+      width: 434.36px;
+      height: 354.01px;
+      // border: 1px solid;
+   }
+  }
+}

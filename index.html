@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>E Commerce</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header1">
+        <ul>
+          <li>EN <img src="./img/arrow down.png" alt="arrow_down" /></li>
+          <li>USD <img src="./img/arrow down.png" alt="arrow_down" /></li>
+        </ul>
+        <ul>
+          <li>
+            <img src="./img/men.png" alt="men" />
+            <p>My profile</p>
+          </li>
+          <li><img src="./img/shop.png" alt="shop" /></li>
+          <li>Items</li>
+          <li>
+            <p>$0.00</p>
+            <img src="./img/lupa.png" alt="lupa" />
+          </li>
+        </ul>
+      </div>
+      <hr />
+      <div class="header2">
+        <ul>
+          <li><img src="./img/logo.png" alt="logo" /></li>
+        </ul>
+        <ul>
+          <li>HOME</li>
+          <li>BAGS</li>
+          <li>SNEAKERS</li>
+          <li>BELT</li>
+          <li>CONTACT</li>
+        </ul>
+      </div>
+      <div class="background">
+        <h1>Super Flash Sale 50% Off</h1>
+        <div class="background-cards">
+          <div class="card"><img src="./img/1.png" alt="1" /></div>
+          <div class="card"><img src="./img/2.png" alt="2" /></div>
+          <div class="card"><img src="./img/3.png" alt="3" /></div>
+        </div>
+      </div>
+      <main>
+        <div class="best">
+          <h2>BEST SELLER</h2>
+          <div class="input-group">
+            <input
+              class="inpForFunc"
+              onkeydown="search()"
+              type="text"
+              name="name"
+              placeholder="Search query..."
+            />
+            <button type="submit">Search</button>
+          </div>
+          <div class="api">
+            <div class="api-list">
+              <ul class="category-list">
+                <li class="category-link" onclick="allCategory()">All</li>
+                <li class="category-link" onclick="electronics()">Electronics</li>
+                <li class="category-link" onclick="jewelery()">Jewelery</li>
+                <li class="category-link" onclick="menClothing()">Men's clothing</li>
+                <li class="category-link" onclick="womenClothing()">Women's clothing</li>
+              </ul>
+            </div>
+            <div class="cards">
+              <ul id="ul">
+                <!-- <li>
+                    <img src="./img/list.png" alt="list">
+                    <h3>Nike Air Max 270 React</h3>
+                    <span class="sp">
+                      <span>&#11088</span><span>&#11088</span><span>&#11088</span><span>&#11088</span><span>&#11088</span>
+                    </span>
+                    <div class="sum">
+                      <p class="money2">$299,43</p>
+                      <del class="money1">$534,33</del>
+                      <p class="sale">24% Off</p>
+                    </div>
+                  </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="load-more">
+        <h2>LOAD MORE</h2>
+        <div class="list">
+          <ul>
+            <li><img src="./img/load1.png" alt="car" /></li>
+            <li>FREE SHIPPING</li>
+          </ul>
+          <ul>
+            <li><img src="./img/load2.png" alt="money" /></li>
+            <li>100% REFUND</li>
+          </ul>
+          <ul>
+            <li><img src="./img/load3.png" alt="support" /></li>
+            <li>SUPPORT 24/7</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-top">
+        <ul>
+          <li><img src="./img/logo.png" alt="logo" /></li>
+          <li>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever.Since the 1500s, when an unknown printer.
+          </li>
+        </ul>
+        <ul>
+          <li>Follow Us</li>
+          <li>
+            Since the 1500s, when an unknown printer took a galley of type and
+            scrambled.
+          </li>
+          <li>
+            <img src="./img/facebook.png" alt="facebook" /><img
+              src="./img/twitter.png"
+              alt="twitter"
+            />
+          </li>
+        </ul>
+        <ul>
+          <li>Contact Us</li>
+          <li>E-Comm , 4578 Marmora Road, Glasgow D04 89GR</li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <ul>
+          <li><code>© 2018 Ecommerce theme by www.bisenbaev.com</code></li>
+        </ul>
+        <ul>
+          <li><img src="./img/Western-union.png" alt="Western-union" /></li>
+          <li><img src="./img/master_cart.png" alt="master_cart" /></li>
+          <li><img src="./img/Paypal.png" alt="Paypal" /></li>
+          <li><img src="./img/visa.png" alt="visa" /></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
